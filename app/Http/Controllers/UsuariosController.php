@@ -13,6 +13,7 @@ use App\User;
 use JWTAuth;
 use Tymon\JWTAuth\Exceptions\JWTException;
 use App\Http\Controllers\AuthenticateController;
+use App\Http\Controllers\SesionController;
 
 class UsuariosController extends Controller
 {
@@ -379,4 +380,5 @@ class UsuariosController extends Controller
             ]);
         }*/
     }
+
 }
